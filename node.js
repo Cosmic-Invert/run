@@ -4,7 +4,7 @@ const axios = require('axios');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const OPENAI_API_KEY = "your-openai-api-key"; // Replace with your actual API key
+const OPENAI_API_KEY = "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"; // Replace with your actual API key
 
 app.get('/respond', async (req, res) => {
     const question = req.query.question;
